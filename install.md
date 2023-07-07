@@ -6,6 +6,7 @@ sudo apt-get update
 # Better terminal
 ```bash
 sudo apt install zsh
+chsh -s $(which zsh)
 ```
 
 # basic stuff

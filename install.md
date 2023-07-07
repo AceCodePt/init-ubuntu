@@ -66,4 +66,10 @@ LV_BRANCH='release-1.3/neovim-0.9' bash <(curl -s https://raw.githubusercontent.
 https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip
 ```
 
+```bash
+curl -fsSL https://get.pnpm.io/install.sh | sh -
+```
+
+
+
 

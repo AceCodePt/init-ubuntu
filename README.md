@@ -70,6 +70,11 @@ https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/Hack.zip
 
 ```bash
 curl -fsSL https://get.pnpm.io/install.sh | sh -
+echo 'export PNPM_HOME="/home/sagi/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac' >> ~/.zshrc
 ```
 
 

@@ -28,8 +28,9 @@ sudo apt-get install xclip
 
 # swap capslock and escape
 ```bash
-echo 'setxkbmap -option caps:swapescape' >> ~/.profile
+sudo nano /etc/default/keyboard
 ```
+change -> `XKBOPTIONS="caps:swapescape"`
 
 # pretty esenital stuff
 ```bash

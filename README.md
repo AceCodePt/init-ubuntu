@@ -77,6 +77,10 @@ case ":$PATH:" in
 esac' >> ~/.zshrc
 ```
 
+# Install tiling Manager
+```
+sudo apt install i3
+```
 
 
 

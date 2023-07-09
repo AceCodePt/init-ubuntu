@@ -78,9 +78,16 @@ esac' >> ~/.zshrc
 ```
 
 # Install tiling Manager
-```
+```bash
 sudo apt install i3
 ```
 
-
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt install docker.io
+systemctl start docker
+systemctl enable docker
+sudo chmod 666 /var/run/docker.sock
+```
 
